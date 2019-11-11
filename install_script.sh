@@ -22,4 +22,5 @@ chown jupyter:jupyter /home/jupyter/startupdata
 echo 'gcsfuse() {
  /usr/bin/gcsfuse "$@"
 }' >> /home/jupyter/.bashrc
+git clone https://github.com/SeverinoCenter/gcp /home/jupyter/
 #/usr/bin/gcsfuse startupdata /home/jupyter/startupdata
